@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 
 rl.on('line', line => {
 	const num = parseInt(line, 10)
-	if(isNaN(num)) {
+	if (isNaN(num)) {
 		throw new Error(`Invalid num: ${line}`)
 	}
 
