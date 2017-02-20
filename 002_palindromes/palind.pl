@@ -6,7 +6,8 @@ my @words;
 while (<>) {
     chomp;
 
-    my @chars = split //, lc $_;
+	$_ = lc $_;
+    my @chars = split //;
 	my $half  = int(scalar @chars / 2) - 1;
 	my $is_not_palind;
 	for (0 .. $half) {
