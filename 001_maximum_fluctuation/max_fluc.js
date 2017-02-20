@@ -29,7 +29,7 @@ function fluctuation(str) {
 		}
 	})
 
-	// Prevent division by zero 
+	// Prevent division by zero
 	if (maxPrice === 0) {
 		return 0
 	}
