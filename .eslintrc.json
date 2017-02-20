@@ -5,7 +5,9 @@
 	},
 	"extends": "eslint:recommended",
 	"rules": {
+		"curly": 2,
 		"no-console": 0,
+		"no-else-return": "error",
 		"indent": [
 			"error",
 			"tab"
