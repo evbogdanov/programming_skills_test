@@ -29,7 +29,7 @@ const calculateDistance = hops => {
 }
 
 rl.on('line', line => {
-	const hops = parseInt(line)
+	const hops = parseInt(line, 10)
 	if (isNaN(hops) || hops < 0) {
 		throw new Error(`Unexpected number of hops: ${line}`)
 	}
