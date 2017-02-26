@@ -15,7 +15,7 @@ rl.on('line', line => {
 		score       = parseInt(numAndScore[1], 10)
 
 	if (isNaN(num) || isNaN(score)) {
-		throw new Error ('Invalid roll number or score')
+		throw new Error('Invalid roll number or score')
 	}
 
 	const highestScore = STUDENTS[num]
